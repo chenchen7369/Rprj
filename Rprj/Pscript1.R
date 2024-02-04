@@ -1,15 +1,21 @@
+print("start")
+
+my_function()
+
+plot(1:10,1:10)
 
 for (x in 1:5) {
-	print("start")
-	my_function()
-	print("end")
+	print(x)	
 }
+print("end")
+
 
 my_function <- function() {
 	print("start my_function")
-	y=5
-	print(y)
-	inner_function()
+	for (y in 1:5) {
+		print(y)
+		inner_function()
+	}
 	print("end my_function")
 }
 
