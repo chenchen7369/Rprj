@@ -3,6 +3,7 @@ print("start")
 my_function()
 
 plot(1:10,1:10)
+#funcky
 
 for (x in 1:5) {
 	print(x)	
